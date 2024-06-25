@@ -1,3 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .nav-bar {
+    padding-bottom: 100px;
+  }
+  
+  .nav-bar .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-bar .nav .nav-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #6d48e5;
+  }
+  
+  .nav-bar .nav .links ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-bar .nav .links ul li {
+    font-size: 16px;
+  }
+  
+  .nav-bar .nav .links ul li a {
+    color: #65717d;
+    font-weight: bold;
+  }
+  
+  .nav-bar .nav .links ul li .btn {
+    padding: 8px 12px;
+    background-color: #6d48e5;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* ----------------------- */
+  .landing-section {
+    text-align: center;
+  }
+  
+  .landing-section .landing-image {
+    width: 600px;
+    padding-bottom: 40px;
+  }
+  
+  .landing-section .landing-section-info {
+    padding-bottom: 50px;
+  }
+  
+  .landing-section .landing-section-info .title {
+    padding-bottom: 20px;
+  }
+  
+  .landing-section .landing-section-info p {
+    color: #65717d;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .landing-section .landing-section-info button {
+    padding: 10px 25px;
+    background-color: #6d48e5;
+    color: #fff;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+  }
+  
+  .landing-section .landing-section-info .landing-spons {
+    width: 700px;
+  }
+
+
 .second_section {
     width: 100%;
     height: 100%;
@@ -55,3 +142,4 @@ p{
     border-radius: 50%;
     font-size: 20px;
 }
+
