@@ -143,3 +143,24 @@ p{
     font-size: 20px;
 }
 
+.stats-intro{
+    text-align: center;
+    padding: 20px 0;
+}
+.stats-div-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+.stats-div-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.stats-info a{
+    color: #939dac;
+}
