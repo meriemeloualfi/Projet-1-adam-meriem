@@ -1,88 +1,88 @@
 * {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-}
-
-.container {
-  padding: 20px;
-}
-
-.nav-bar {
-  padding-bottom: 100px;
-}
-
-.nav-bar .nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.nav-bar .nav .nav-title {
-  font-size: 25px;
-  font-weight: bold;
-  color: #6d48e5;
-}
-
-.nav-bar .nav .links ul {
-  display: flex;
-  gap: 30px;
-}
-
-.nav-bar .nav .links ul li {
-  font-size: 16px;
-}
-
-.nav-bar .nav .links ul li a {
-  color: #65717d;
-  font-weight: bold;
-}
-
-.nav-bar .nav .links ul li .btn {
-  padding: 8px 12px;
-  background-color: #6d48e5;
-  color: #fff;
-  border-radius: 5px;
-}
-
-/* ----------------------- */
-.landing-section {
-  text-align: center;
-}
-
-.landing-section .landing-image {
-  width: 600px;
-  padding-bottom: 40px;
-}
-
-.landing-section .landing-section-info {
-  padding-bottom: 50px;
-}
-
-.landing-section .landing-section-info .title {
-  padding-bottom: 20px;
-}
-
-.landing-section .landing-section-info p {
-  color: #65717d;
-  font-size: 18px;
-  font-weight: 500;
-  padding-bottom: 20px;
-}
-
-.landing-section .landing-section-info button {
-  padding: 10px 25px;
-  background-color: #6d48e5;
-  color: #fff;
-  border: none;
-  letter-spacing: 3px;
-  border-radius: 5px;
-}
-
-.landing-section .landing-section-info .landing-spons {
-  width: 700px;
-}
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .container {
+    /* padding-inline: 20px; */
+  }
+  
+  .nav-bar {
+    padding-bottom: 100px;
+  }
+  
+  .nav-bar .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav-bar .nav .nav-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #6d48e5;
+  }
+  
+  .nav-bar .nav .links ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-bar .nav .links ul li {
+    font-size: 16px;
+  }
+  
+  .nav-bar .nav .links ul li a {
+    color: #65717d;
+    font-weight: bold;
+  }
+  
+  .nav-bar .nav .links ul li .btn {
+    padding: 8px 12px;
+    background-color: #6d48e5;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* ----------------------- */
+  .landing-section {
+    text-align: center;
+  }
+  
+  .landing-section .landing-image {
+    width: 600px;
+    padding-bottom: 40px;
+  }
+  
+  .landing-section .landing-section-info {
+    padding-bottom: 50px;
+  }
+  
+  .landing-section .landing-section-info .title {
+    padding-bottom: 20px;
+  }
+  
+  .landing-section .landing-section-info p {
+    color: #65717d;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .landing-section .landing-section-info button {
+    padding: 10px 25px;
+    background-color: #6d48e5;
+    color: #fff;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 5px;
+  }
+  
+  .landing-section .landing-section-info .landing-spons {
+    width: 700px;
+  }
 
 .second_section {
   width: 100%;
@@ -199,29 +199,55 @@ p {
   text-decoration: underline;
 }
 
-
-/* --------------------- */
-
-.services-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  padding-block: 80px;
+/* footer start */
+.footer1{
+    background-color: #f6f6fd;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
-
-.services-section .service {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  margin-bottom: 30px;
+.foot1{
+    text-align: center;
+    
 }
-
-.services-section .service h3 {
-  padding-bottom: 10px;
+.p1{
+    color: gray;
+    padding: 12px;
 }
-
-.services-section .service p {
-  width: 350px;
-  line-height: 1.7;
+.input1{
+    height: 35px;
+    width: 300px;
+    text-align: center;
+    font-family: sans-serif ;
+    border: 1.5px purple solid;
+    border-radius: 10px;
+    margin-top: 30px;
 }
+.button1{
+    height: 35px;
+    width: 300px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-family: sans-serif ;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.aray-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    width: 70%;
+}
+ .prpl-p p{
+    color: #6d48e7;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+/* footer end */
