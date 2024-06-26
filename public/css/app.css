@@ -47,6 +47,10 @@
   border-radius: 5px;
 }
 
+.nav-bar .nav a {
+  display: none;
+}
+
 /* ----------------------- */
 .landing-section {
   text-align: center;
@@ -276,4 +280,31 @@ p {
   display: flex;
   gap: 10px;
 }
-/* footer end */
+
+
+@media (max-width: 428px) {
+  .nav-bar .nav {
+    justify-content: space-between;
+  }
+
+  .nav-bar .nav a {
+    display: block;
+  }
+
+  .nav-bar .nav .links {
+    display: none;
+  }
+
+  .landing-section .landing-image {
+    width: 400px;
+  }
+
+  .landing-section .landing-section-info .title {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .landing-section .landing-spons {
+    width: 380px;
+  }
+}
