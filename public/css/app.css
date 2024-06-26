@@ -164,3 +164,43 @@ p{
 .stats-info a{
     color: #939dac;
 }
+
+.revenue-section {
+    padding: 40px;
+    background-color: rgb(100, 51, 192);
+    color: white;
+    text-align: center;
+    
+
+}
+.revenue-intro{
+    padding-bottom: 10vh;
+}
+.revenue-intro p,
+.revenue-intro h1
+{
+    text-align: center;
+    color: white;
+    padding-top:15px;
+}
+.revenue-div{
+    display: flex;
+
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.revenue {
+    display: flex;
+    flex-direction: column;
+    
+}
+.revenue-num{
+    font-size: 70px;
+    font-weight: bold;
+}
+.revenue-section a{
+    color: white;
+    margin-top: 30px;
+    text-decoration: underline;
+}
